@@ -2,5 +2,5 @@ from django.shortcuts import render,HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("这是首页")
 
+    return render(request,'index.html')
